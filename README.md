@@ -1,6 +1,6 @@
 # pinger
 
-Basic threaded ICMP discovery script, written in Python 3. Should work across Windows/Linux/OSX, but haven't tested extensively. Can hit Class B ranges but I'd use a pro tool for that if I were you.
+Basic threaded ICMP discovery script, written in Python 3. Should work across Windows/Linux/OSX, but haven't tested extensively. Technically, pinger can scan Class B or A ranges but I'd use a pro tool for that if I were you.
 
 # Requirements
 

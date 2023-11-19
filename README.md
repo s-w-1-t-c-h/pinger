@@ -13,4 +13,8 @@ pip3 install netaddr
 
 ![image](https://github.com/s-w-1-t-c-h/pinger/assets/6980812/e0f6e3fa-eb00-4e21-84dd-2101fc7c394b)
 
-Pretty basic, good enough for CTF or lab use.
+Pretty basic, good enough for CTF or lab use. If you want to change the number of concurrent tasks, just mod line 43 and change the value of **max_workers** to whatever you desire:
+
+```
+with ThreadPoolExecutor(max_workers=50) as executor:
+```
